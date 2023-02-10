@@ -35,5 +35,6 @@ def hello():
 if __name__ == "__main__":
     ## stream logs to a file
     logging.basicConfig(filename='app.log',level=logging.DEBUG)
+    print("App running... SHashwata")
     
     app.run(host='0.0.0.0')
